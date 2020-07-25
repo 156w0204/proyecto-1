@@ -1,0 +1,1006 @@
+<!Doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>READING</title>
+			<link rel="stylesheet" href="css/estilo.css">
+		<script language="JavaScript">
+<!--
+alert("Bienvenido a la Evaluación correspondiente al primer Ejercicio \n\nSeleccione las respuestas que crea correctas, teniendo en "+
+      "\ncuenta las siguientes consideraciones \n\n1. Los aciertos tienen el valor de un punto"+
+	  " \n\n2. Las respuestas no contestadas ni suman ni restan puntos.") 
+//-->
+ 
+var resp = new Array;
+var faite = new Array;
+var score = 0;
+ 
+resp[1] = "b";
+resp[2] = "c";
+resp[3] = "b";
+resp[4] = "a";
+resp[5] = "b";
+resp[6] = "d";
+resp[7] = "b";
+resp[8] = "c";
+resp[9] = "c";
+resp[10] = "b";
+resp[11] ="d";
+resp[12] ="a";
+resp[13] ="d";
+resp[14] ="b";
+resp[15] ="d";
+resp[16] ="c";
+resp[17] ="a";
+resp[18] ="a";
+resp[19] ="b";
+resp[20] ="a";
+resp[21] ="c";
+resp[22] ="d";
+resp[23] ="d";
+resp[24] ="b";
+resp[25] ="a";
+resp[26] ="c";
+resp[27] ="c";
+resp[28] ="b";
+resp[29] ="d";
+resp[30] ="d";
+resp[31] = "a";
+resp[32] ="c";
+resp[33] ="c";
+resp[34] ="d";
+resp[35] ="a";
+resp[36] ="b";
+resp[37] ="c";
+resp[38] ="d";
+resp[39] ="d";
+resp[40] ="b";
+resp[41] ="a";
+resp[42] ="c";
+resp[43] ="d";
+resp[44] ="b";
+resp[45] ="b";
+resp[46] ="c";
+resp[47] ="d";
+resp[48] ="d";
+resp[49] ="a";
+resp[50] ="d";
+function Engine(question, repose)
+{
+   if (repose != resp[question])
+	 {
+             if (!faite[question])
+			        {faite[question] = -1;}
+                }
+        else {
+ 
+                if (!faite[question]) {
+                        faite[question] = -1;
+                        score++;
+                        alert("¡Correcto! Tu puntuación es : " + score );
+                        }
+ 
+                }
+}
+ 
+function Nivel () {
+ 
+        if (score >= 40 && score < 50) {
+                alert(score + "/50 " + "!!!EXELENTE!!!");
+                }
+        if (score >= 30 && score < 50) {
+                alert(score + "/50 " + "Bien, pero puedes hacerlo mejor");
+                }
+      
+        if (score <=20  && score < 50) {
+                alert(score + "/50 " + "REPITE LA PRUEBA");
+                }
+       
+}
+ 
+</script>
+		</head>
+		<div>
+			<header class="menu">
+			<img src="img/logo.jpg" width="150" alt="">
+				<nav>
+					<ul>
+					<style href="text/css">
+					img{
+						margin-top: 30px;
+						margin-left: 150px;
+					}
+					 li{
+						float: left;
+						list-style: none;
+						padding: 10px;
+					 }
+					 nav{
+						float: right;
+						margin-top: 20px;
+						margin-right: 150px;
+					 }
+					 a{
+						text-decoration: none;
+					 }
+					 
+					 section{
+						background-size: 900px;
+						
+					 }
+					 .1: hover{
+						height: 1350;
+						width: 820;
+					 }
+					 section{
+					align: center;
+					 }
+					</style>
+						<li><a href="index.html">MENU</a></li>
+						<li><a href="">C) EXERCISE</a></li>
+						<li><a href="">READING</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<body>
+		<table width="785" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#336699" height="2">
+  <tr>
+    <td width="515" class="TopicTitle"><font face="Verdana, Arial, Helvetica, sans-serif" color="#336699">  
+	<b>	  </b></font></td>	
+  </tr>
+  <img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_01_02.jpg">
+  <tr>
+    <td width="515" bgcolor="#336699"> </td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td> </td>
+    <td class="TopicSubtitle"><font face="Verdana, Arial, Helvetica, sans-serif" color="#336699"></font></td>
+  </tr>
+  <tr>
+    <td height="521"> </td>
+    <td height="521">
+      <div align="center">
+<div align="left">
+<section>
+<FORM NAME="formulario" ACTION="">
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+             <b>1. Which of the following best describes the topic of the passage?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=a>
+             The city of Fort Knox, Kentucky .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=b>
+              The federal gold depository .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=c>
+              The U.S. army post at Fort Knox.</font></p>
+			   <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=d>
+              Gold bullion.</font></p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+    
+              <b>2. Which of the following would be the best title for this passage?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=a>
+             The Massive Concrete Vault.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=b>
+              Fort Knox Security.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=c>
+              Where the U.S. Keeps Its Gold.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=d>
+              A Visit to Kentucky.</font></p>
+            <p> </p>
+			<div>
+			<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_03_04.jpg">
+			</div>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+			<b>3. Which of the following best states the subject of this passage?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=a>
+              The hardness of diamonds.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=b>
+             Identifying minerals by means of a scratch test .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=c>
+              Feldspar on the Mohs' scale .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=d>
+              Recognizing minerals in their natural state.</font></p><br>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+			<b>4. The main idea of this passage is that….</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=a>
+              the hardness of a mineral can be determined by its ability to make a mark on other minerals .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=b>
+              diamonds, with a hardness of 10 on the Mohs’ scale, can scratch all other minerals .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=c>
+              a softer mineral cannot be scratched by a harder mineral .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=d>
+             talc is the first mineral listed on the Mohs’ scale.</font></p><br>
+            <p> </p>
+			<div>
+			<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_05_06.jpg">
+			</div>
+			
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+			<b>5. How is the information in the passage organized?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=a>
+              The origin of ideas about conflict is presented.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=b>
+             Contrasting views of conflict are presented.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=c>
+               Two theorists discuss the strengths and weaknesses of their views on conflict.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=d>
+              Examples of conflict within organizations are presented..</font></p><br>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>6.
+             What type of information is included in the third paragraph?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=a>
+            A comparison of the interactionist and traditional views of conflict .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=b>
+            A discussion of the weaknesses of the interactionist view of conflict .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=c>
+             An outline of the type of manager who prefers the interactionist view of conflict.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=d>
+              A description of one of the opposing views of conflict.</font></p>
+			  <p></p>
+			 <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_07_08.jpg">
+			</div>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>7.
+             What type of information is included in the first paragraph?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=a>
+              An argument.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=b>
+              A definition.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=c>
+              An opinion.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=d>
+             A theory.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>8.
+            How does the information in the third paragraph differ from that in the second paragraph?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=a>
+            It presents a contrasting point of view.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=b>
+             It follows chronologically from the ideas in the second paragraph.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=c>
+               It presents real information rather than a premise.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=d>
+              It presents an example of the ideas in the second paragraph.</font></p>
+			  <p></p>
+			 <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_09_11.jpg">
+			</div>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>9.
+             According to the passage, what happens during an ice age?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=a>
+              Rock strata are recognized by geologists.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=b>
+              Evidence of foreign materials is found.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=c>
+              Ice covers a large portion of the Earth’s surface.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=d>
+              Ice melts six times.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>10.
+             The passage covers how many different methods of recognizing past ice ages?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=a>
+             One.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=b>
+              Two .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=c>
+             Three.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=d>
+              Four.</font></p><br>
+			  <p></p>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>11.
+             According to the passage, what in the rock strata is a clue to geologists of a past ice age?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=11 onClick="Engine(11, this.value)" type=radio value=a>
+              Ice .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=11 onClick="Engine(11, this.value)" type=radio value=b>
+              Melting glaciers .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=11 onClick="Engine(11, this.value)" type=radio value=c>
+             U-shaped valleys .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=11 onClick="Engine(11, this.value)" type=radio value=d>
+              Substances from other areas.</font></p><br>
+			  <p></p>
+			 <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_12_13.jpg">
+			</div>
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>12.
+             All of the following are true about blood plasma EXCEPT.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=12 onClick="Engine(12, this.value)" type=radio value=a>
+             it is a deeply colored liquid .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=12 onClick="Engine(12, this.value)" type=radio value=b>
+              blood cells have been taken out of it .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=12 onClick="Engine(12, this.value)" type=radio value=c>
+             patients are often transfused with it .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=12 onClick="Engine(12, this.value)" type=radio value=d>
+               it is generally more important to the patient than other parts of whole blood.</font></p>
+			  <p></p><br>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>13.
+             Which of the following is NOT stated about whole blood?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=13 onClick="Engine(13, this.value)" type=radio value=a>
+             It is different from plasma.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=13 onClick="Engine(13, this.value)" type=radio value=b>
+               It cannot be dried.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=13 onClick="Engine(13, this.value)" type=radio value=c>
+             It is impossible to keep it in storage for a long time.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=13 onClick="Engine(13, this.value)" type=radio value=d>
+              It is a clear, colorless liquid.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_14_15.jpg">
+			</div>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>14.
+             Which of the following is NOT true about Nellie Bly?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=14 onClick="Engine(14, this.value)" type=radio value=a>
+             Nellie Bly’s real name was Elizabeth Cochrane Seaman. .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=14 onClick="Engine(14, this.value)" type=radio value=b>
+              Nellie Bly was mentally ill. .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=14 onClick="Engine(14, this.value)" type=radio value=c>
+             The name Nellie Bly came from a song. .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=14 onClick="Engine(14, this.value)" type=radio value=d>
+              The name Nellie Bly was used on articles that Seaman wrote..</font></p><br>
+			  <p></p>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>15.
+             Which of the following is NOT mentioned as something that Nellie Bly did to get a good story?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=15 onClick="Engine(15, this.value)" type=radio value=a>
+             She acted like a thief.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=15 onClick="Engine(15, this.value)" type=radio value=b>
+              She got arrested by the police.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=15 onClick="Engine(15, this.value)" type=radio value=c>
+             She pretended to be ill.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=15 onClick="Engine(15, this.value)" type=radio value=d>
+              She worked as a doctor in a mental hospital.</font></p>
+			  <p></p>
+			   <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_16_17.jpg">
+			</div>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>16.
+             The pronoun "It" in line 2 refers to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=16 onClick="Engine(16, this.value)" type=radio value=a>
+             the equinox.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=16 onClick="Engine(16, this.value)" type=radio value=b>
+              the Sun .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=16 onClick="Engine(16, this.value)" type=radio value=c>
+             the harvest.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=16 onClick="Engine(16, this.value)" type=radio value=d>
+              moon the night.</font></p><br>
+			  <p></p>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>17.
+             The pronoun "they" in line 2 refers to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=17 onClick="Engine(17, this.value)" type=radio value=a>
+             farmers.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=17 onClick="Engine(17, this.value)" type=radio value=b>
+              nights .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=17 onClick="Engine(17, this.value)" type=radio value=c>
+             times of the year .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=17 onClick="Engine(17, this.value)" type=radio value=d>
+              northern and southern hemispheres.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_18_19.jpg">
+			</div>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>18.
+             The pronoun “it” in line 2 refers to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=18 onClick="Engine(18, this.value)" type=radio value=a>
+             Mardi Gras .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=18 onClick="Engine(18, this.value)" type=radio value=b>
+              French .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=18 onClick="Engine(18, this.value)" type=radio value=c>
+             that time .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=18 onClick="Engine(18, this.value)" type=radio value=d>
+              New Orleans.</font></p><br>
+			  <p></p>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>19.
+             The pronoun "they" in line 6 refers to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=19 onClick="Engine(19, this.value)" type=radio value=a>
+             numerous festivities .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=19 onClick="Engine(19, this.value)" type=radio value=b>
+              tourists .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=19 onClick="Engine(19, this.value)" type=radio value=c>
+             various countries .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=19 onClick="Engine(19, this.value)" type=radio value=d>
+              nonstop activities.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_20_21.jpg">
+			</div>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>20.
+             It is implied in the passage that if a kayak has two holes, then.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=20 onClick="Engine(20, this.value)" type=radio value=a>
+             it accommodates two riders .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=20 onClick="Engine(20, this.value)" type=radio value=b>
+              it is less stable than a kayak with one hole .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=20 onClick="Engine(20, this.value)" type=radio value=c>
+             it is as large as an umiak .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=20 onClick="Engine(20, this.value)" type=radio value=d>
+              it cannot be used on the ocean.</font></p><br>
+			  <p></p>
+			    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>21.
+             It can be inferred from the passage that an example of the animal mentioned in lines 11-12 might be.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=21 onClick="Engine(21, this.value)" type=radio value=a>
+             a kangaroo .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=21 onClick="Engine(21, this.value)" type=radio value=b>
+              a snake .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=21 onClick="Engine(21, this.value)" type=radio value=c>
+             a whale .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=21 onClick="Engine(21, this.value)" type=radio value=d>
+              a salmon.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_22_24.jpg">
+			</div>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>22.
+             It is implied in the passage that.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=22 onClick="Engine(22, this.value)" type=radio value=a>
+             the leaves of only the California redwood turn brown in the autumn .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=22 onClick="Engine(22, this.value)" type=radio value=b>
+              the leaves of only the giant sequoia turn brown in the winter .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=22 onClick="Engine(2, this.value)" type=radio value=c>
+             the leaves of both types of trees in the passage turn brown in the winter .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=22 onClick="Engine(22, this.value)" type=radio value=d>
+              the leaves of neither type of tree in the passage turn brown in the winter.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>23.
+             It can be inferred from the passage that the Sierra Nevadas are.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=23 onClick="Engine(23, this.value)" type=radio value=a>
+             a type of giant redwood .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=23 onClick="Engine(23, this.value)" type=radio value=b>
+              a coastal community .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=23 onClick="Engine(23, this.value)" type=radio value=c>
+             a group of lakes .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=23 onClick="Engine(23, this.value)" type=radio value=d>
+              a mountain range.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>24.
+             Which of the following is implied in the passage?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=24 onClick="Engine(24, this.value)" type=radio value=a>
+             The giant sequoia is taller than the California redwood.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=24 onClick="Engine(24, this.value)" type=radio value=b>
+              The California redwood is not as big around as the giant sequoia.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=24 onClick="Engine(24, this.value)" type=radio value=c>
+             The California redwood weighs more than the giant sequoia.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=24 onClick="Engine(24, this.value)" type=radio value=d>
+              Other living things are larger than the giant sequoia.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_25_26.jpg">
+			</div>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>25.
+             The paragraph preceding this passage most probably discusses.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=25 onClick="Engine(25, this.value)" type=radio value=a>
+             a different scientific television series .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=25 onClick="Engine(25, this.value)" type=radio value=b>
+              Carl Sagans scientific achievements .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=25 onClick="Engine(25, this.value)" type=radio value=c>
+             the Pulitzer Prize won by Carl Sagan .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=25 onClick="Engine(25, this.value)" type=radio value=d>
+              public television.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>26.
+             The paragraph following this passage most likely contains information on what?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=26 onClick="Engine(26, this.value)" type=radio value=a>
+             The popularity of science .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=26 onClick="Engine(26, this.value)" type=radio value=b>
+              The program Cosmos .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=26 onClick="Engine(26, this.value)" type=radio value=c>
+             The astronomer Carl Sagan .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=26 onClick="Engine(26, this.value)" type=radio value=d>
+              Topics and issues from various fields of science.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_27_28.jpg">
+			</div>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>27.
+             The paragraph preceding the passage most probably discusses.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=27 onClick="Engine(27, this.value)" type=radio value=a>
+             tsunamis in various parts of the world .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=27 onClick="Engine(27, this.value)" type=radio value=b>
+               the negative effects of tsunamis .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=27 onClick="Engine(27, this.value)" type=radio value=c>
+             land-based earthquakes .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=27 onClick="Engine(27, this.value)" type=radio value=d>
+              the effect of tides on tsunamis.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>28.
+             Which of the following is most likely the topic of the paragraph following the passage?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=28 onClick="Engine(28, this.value)" type=radio value=a>
+             The causes of tsunamis .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=28 onClick="Engine(28, this.value)" type=radio value=b>
+              The destructive effects of tsunamis on the coast .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=28 onClick="Engine(28, this.value)" type=radio value=c>
+             The differences between tsunamis and tidal waves .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=28 onClick="Engine(28, this.value)" type=radio value=d>
+              The distances covered by tsunamis.</font></p>
+			  <p></p>
+			<div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_29_32.jpg">
+			</div>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>29.
+             According to line 1 of the passage, what is a “teddy bear”?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=29 onClick="Engine(29, this.value)" type=radio value=a>
+             A ferocious animal .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=29 onClick="Engine(29, this.value)" type=radio value=b>
+              The president of the United States .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=29 onClick="Engine(29, this.value)" type=radio value=c>
+             A famous hunter .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=29 onClick="Engine(29, this.value)" type=radio value=d>
+              A famous hunter.</font></p><br>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>30.
+             In line 4, "pastimes” could best be replaced by.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=30 onClick="Engine(30, this.value)" type=radio value=a>
+             things that occurred in the past .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=30 onClick="Engine(30, this.value)" type=radio value=b>
+              previous jobs .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=30 onClick="Engine(30, this.value)" type=radio value=c>
+             hunting trips .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=30 onClick="Engine(30, this.value)" type=radio value=d>
+              leisure activities.</font></p><br>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>31.
+             The word “extricated" in line 8 is closest in meaning to which of the following?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=31 onClick="Engine(31, this.value)" type=radio value=a>
+             Released .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=31 onClick="Engine(31, this.value)" type=radio value=b>
+              Tied up .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=31 onClick="Engine(31, this.value)" type=radio value=c>
+             Hunted.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=31 onClick="Engine(31, this.value)" type=radio value=d>
+              Shot.</font></p><br>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>32.
+             In line 10, a “cartoon” could best be described as.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=32 onClick="Engine(32, this.value)" type=radio value=a>
+             a newspaper .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=32 onClick="Engine(32, this.value)" type=radio value=b>
+              a type of teddy bear .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=32 onClick="Engine(32, this.value)" type=radio value=c>
+             a drawing with a message.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=32 onClick="Engine(32, this.value)" type=radio value=d>
+              a newspaper article.</font></p>
+			  <p></p>
+			 <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_33_37.jpg">
+			</div>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>33.
+             The word "subjugation" in line 4 is closest in meaning to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=33 onClick="Engine(33, this.value)" type=radio value=a>
+             religion.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=33 onClick="Engine(33, this.value)" type=radio value=b>
+              flag.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=33 onClick="Engine(33, this.value)" type=radio value=c>
+              control .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=33 onClick="Engine(33, this.value)" type=radio value=d>
+              agreement.</font></p><br>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>34.
+             In line 5, the word "decades" is closest in meaning to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=34 onClick="Engine(34, this.value)" type=radio value=a>
+              months .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=34 onClick="Engine(34, this.value)" type=radio value=b>
+              centuries .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=34 onClick="Engine(34, this.value)" type=radio value=c>
+             long epoch .</font></p><br>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=34 onClick="Engine(34, this.value)" type=radio value=d>
+              ten-year periods.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>35.
+             In line 9. the word "terrain" is closest in meaning to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=35 onClick="Engine(35, this.value)" type=radio value=a>
+              land .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=35 onClick="Engine(35, this.value)" type=radio value=b>
+              population .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=35 onClick="Engine(35, this.value)" type=radio value=c>
+             minerals .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=35 onClick="Engine(35, this.value)" type=radio value=d>
+              prosperity.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>36.
+              The word "spectacular" in line 13 is closest in meaning to which of the following?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=36 onClick="Engine(36, this.value)" type=radio value=a>
+             Ruggedly handsome .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=36 onClick="Engine(36, this.value)" type=radio value=b>
+              Visually exciting .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=36 onClick="Engine(36, this.value)" type=radio value=c>
+             Completely uneven .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=36 onClick="Engine(36, this.value)" type=radio value=d>
+              Unendingly boring.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>37.
+             The word "veered" in line 16 is closest in meaning to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=37 onClick="Engine(37, this.value)" type=radio value=a>
+             arrived.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=37 onClick="Engine(37, this.value)" type=radio value=b>
+              ran.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=37 onClick="Engine(37, this.value)" type=radio value=c>
+              turned .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=37 onClick="Engine(37, this.value)" type=radio value=d>
+               cooled.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_38_41.jpg">
+			</div>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>38.
+             In line 2. the word "widow" means.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=38 onClick="Engine(38, this.value)" type=radio value=a>
+             a type of poison .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=38 onClick="Engine(38, this.value)" type=radio value=b>
+              the dead male spider .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=38 onClick="Engine(38, this.value)" type=radio value=c>
+             the human victim of the spider .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=38 onClick="Engine(38, this.value)" type=radio value=d>
+              a female whose mate has died.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>39.
+             Which of the following is closest in meaning to the word "globular" in line 5?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=39 onClick="Engine(39, this.value)" type=radio value=a>
+             Earthen .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=39 onClick="Engine(39, this.value)" type=radio value=b>
+             Luminescent .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=39 onClick="Engine(39, this.value)" type=radio value=c>
+             Green in color .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=39 onClick="Engine(39, this.value)" type=radio value=d>
+               Round.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>40.
+             The word "ample" in line 7 indicates that the spider is.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=40 onClick="Engine(40, this.value)" type=radio value=a>
+              feminine .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=40 onClick="Engine(40, this.value)" type=radio value=b>
+              large in size .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=40 onClick="Engine(40, this.value)" type=radio value=c>
+             dotted with colors .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=40 onClick="Engine(40, this.value)" type=radio value=d>
+              normal.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>41.
+             Which of the following has the same meaning as the word "mortal" in line 10?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=41 onClick="Engine(41, this.value)" type=radio value=a>
+             Deadly .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=41 onClick="Engine(41, this.value)" type=radio value=b>
+               Painful .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=41 onClick="Engine(41, this.value)" type=radio value=c>
+             Poisonous .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=41 onClick="Engine(41, this.value)" type=radio value=d>
+              Sickening.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_42_44.jpg">
+			</div>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>42.
+             The word "rough" in line 1 is closest in meaning to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=42 onClick="Engine(42, this.value)" type=radio value=a>
+             unsmooth .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=42 onClick="Engine(42, this.value)" type=radio value=b>
+                mean.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=42 onClick="Engine(42, this.value)" type=radio value=c>
+               approximate .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=42 onClick="Engine(42, this.value)" type=radio value=d>
+              heavy.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>43.
+             "Stores" in line 3 are probably.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=43 onClick="Engine(43, this.value)" type=radio value=a>
+              departments.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=43 onClick="Engine(43, this.value)" type=radio value=b>
+                markets.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=43 onClick="Engine(43, this.value)" type=radio value=c>
+              shops.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=43 onClick="Engine(43, this.value)" type=radio value=d>
+              supplies.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>44.
+             The word "take" in line 10 could best be replaced by.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=44 onClick="Engine(44, this.value)" type=radio value=a>
+             hold .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=44 onClick="Engine(44, this.value)" type=radio value=b>
+                understand.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=44 onClick="Engine(44, this.value)" type=radio value=c>
+              possess.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=44 onClick="Engine(44, this.value)" type=radio value=d>
+              grab.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_45_48.jpg">
+			</div>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>45.
+             Where in the passage does the author give the name of a baby beaver?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=45 onClick="Engine(45, this.value)" type=radio value=a>
+             Line 1 .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=45 onClick="Engine(45, this.value)" type=radio value=b>
+                Line 2 .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=45 onClick="Engine(45, this.value)" type=radio value=c>
+              Line 3 .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=45 onClick="Engine(45, this.value)" type=radio value=d>
+              Lines 4-5.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>46.
+             Where in the passage does the author mention the time of year when new baby beavers are born?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=46 onClick="Engine(46, this.value)" type=radio value=a>
+             Line 1.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=46 onClick="Engine(46, this.value)" type=radio value=b>
+                Line 2 .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=46 onClick="Engine(46, this.value)" type=radio value=c>
+              Line 3 .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=46 onClick="Engine(46, this.value)" type=radio value=d>
+              Lines 4-5.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>47.
+             Where in the passage does the author state the age at which beavers must go out on their own?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=47 onClick="Engine(47, this.value)" type=radio value=a>
+             Line 1.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=47 onClick="Engine(47, this.value)" type=radio value=b>
+                Line 2 .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=47 onClick="Engine(47, this.value)" type=radio value=c>
+              Line 3 .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=47 onClick="Engine(47, this.value)" type=radio value=d>
+              Lines 4-5.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>48.
+             Where in the passage does the author indicate why the young beavers must leave their parents' home?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=48 onClick="Engine(48, this.value)" type=radio value=a>
+             Line 1 .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=48 onClick="Engine(48, this.value)" type=radio value=b>
+                Line 2 .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=48 onClick="Engine(48, this.value)" type=radio value=c>
+              Line 3 .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=48 onClick="Engine(48, this.value)" type=radio value=d>
+              Lines 4-5.</font></p>
+			  <p></p>
+			  <div>
+				<img id="1" src="KEY ANSWER READING & 50 QUESTIONS MULTIPLE OPTION/toefl_ipt_reading_exercise_text_49_50.jpg">
+			</div>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>49.
+             The purpose of this passage is to.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=49 onClick="Engine(49, this.value)" type=radio value=a>
+             discuss an example of a particular literary genre .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=49 onClick="Engine(49, this.value)" type=radio value=b>
+                tell the story of “In Cold Blood”.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=49 onClick="Engine(49, this.value)" type=radio value=c>
+              explain Truman Capote's reasons for writing “In Cold Blood” .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=49 onClick="Engine(49, this.value)" type=radio value=d>
+              describe how Truman Capote researched his nonfiction novel.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>50.
+             Which of the following best describes the tone of the passage?.</b></font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=50 onClick="Engine(50, this.value)" type=radio value=a>
+              Cold .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=50 onClick="Engine(50, this.value)" type=radio value=b>
+                Sadistic.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=50 onClick="Engine(50, this.value)" type=radio value=c>
+              Emotional.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=50 onClick="Engine(50, this.value)" type=radio value=d>
+              Descriptive.</font></p>
+			  <p></p>
+			  
+			  <p></p>
+			  
+			  <p></p>
+			  
+			  <p></p>
+            <p>
+              <input name=Resulta onClick=Nivel() type=button value=Resultados>
+             <!--<input type="button" name="repose" value="Respuestas Correctas">-->
+              <!--<input type="reset" value="Borrar resultados" name="reset">-->
+            </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>* Para
+              tomar nuevamente la autoevaluación presione el botón
+              'F5' </b></font></p>
+            </FORM>
+			</section>
+			</div>
+		</div>
+	</td>
+</tr>
+</table>
+			<section>
+				<div>
+					<a href="index.html">NEXT</a>
+				</div>
+			</section>
+		<footer id="main-footer">
+				<div class="pie">
+					<div class="container">
+						&copy; 2020 - Todos los derechos reservados
+					</div>
+				</div>
+		</footer>
+		</body>
+</html>

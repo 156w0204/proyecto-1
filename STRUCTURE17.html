@@ -1,0 +1,304 @@
+<!Doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>STRUCTURE</title>
+			<link rel="stylesheet" href="css/estilo.css">
+		<script language="JavaScript">
+<!--
+alert("Bienvenido a la Evaluación correspondiente al primer Ejercicio \n\nSeleccione las respuestas que crea correctas, teniendo en "+
+      "\ncuenta las siguientes consideraciones \n\n1. Los aciertos tienen el valor de un punto"+
+	  " \n\n2. Las respuestas no contestadas ni suman ni restan puntos.") 
+//-->
+ 
+var resp = new Array;
+var faite = new Array;
+var score = 0;
+ 
+resp[1] = "a";
+resp[2] = "a";
+resp[3] = "a";
+resp[4] = "a";
+resp[5] = "a";
+resp[6] = "a";
+resp[7] = "a";
+resp[8] = "a";
+resp[9] = "a";
+resp[10] = "a";
+ 
+function Engine(question, repose)
+{
+   if (repose != resp[question])
+	 {
+             if (!faite[question])
+			        {faite[question] = -1;}
+                }
+        else {
+ 
+                if (!faite[question]) {
+                        faite[question] = -1;
+                        score++;
+                        alert("¡Correcto! Tu puntuación es : " + score );
+                        }
+ 
+                }
+}
+ 
+function Nivel () {
+ 
+        if (score >= 9 && score < 10) {
+                alert(score + "/10 " + "!!!EXELENTE!!!");
+                }
+        if (score >= 7 && score < 10) {
+                alert(score + "/10 " + "Bien, pero puedes hacerlo mejor");
+                }
+      
+        if (score <= 6 && score < 10) {
+                alert(score + "/10 " + "REPITE LA PRUEBA");
+                }
+       
+}
+ 
+</script>
+		</head>
+		<div>
+			<header class="menu">
+			<img src="img/logo.jpg" width="150" alt="">
+				<nav>
+					<ul>
+					<style href="text/css">
+					img{
+						margin-top: 30px;
+						margin-left: 150px;
+					}
+					 li{
+						float: left;
+						list-style: none;
+						padding: 10px;
+					 }
+					 nav{
+						float: right;
+						margin-top: 20px;
+						margin-right: 150px;
+					 }
+					 a{
+						text-decoration: none;
+					 }
+					 
+					 section{
+						background-size: 900px;
+						
+					 }
+					 .1: hover{
+						height: 1350;
+						width: 820;
+					 }
+					 form{
+						text-align: center;
+					 }
+					</style>
+						<li><a href="index.html">MENU</a></li>
+						<li><a href="">C) EXERCISE</a></li>
+						<li><a href="">STRUCTURE 5 out of 60</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<body>
+		<table width="785" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="#336699" height="2">
+  <tr>
+    <td width="50" rowspan="2"><img src="img/pensar.jpg" width="50" height="50"></td>
+    <td width="515" class="TopicTitle"><font face="Verdana, Arial, Helvetica, sans-serif" color="#336699"><b>
+	STRUCTURE EXERCISES – MULIPLE OPTION (ONLY A) IS CORRECT.</b></font></td>
+  </tr>
+  <tr>
+    <td width="515" bgcolor="#336699"> </td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td> </td>
+    <td class="TopicSubtitle"><font face="Verdana, Arial, Helvetica, sans-serif" color="#336699"></font></td>
+  </tr>
+  <tr>
+    <td height="521"> </td>
+    <td height="521">
+      <div align="center">
+<div align="left">
+<FORM NAME="formulario" ACTION="">
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">1.
+            That monument _________ in 1955 looks very old.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=a>
+              a. built.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=b>
+              b. was built.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=c>
+              c. has built.</font></p>
+			   <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=d>
+              d. was building.</font></p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+    
+              2. The pizza ________ ordered by you has not arrived yet.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=a>
+              a. just.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=b>
+              b. has.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=c>
+              c. was.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=d>
+              d. has been.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">3.
+            The vegetables ________ in this farm are delicious.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=a>
+              a. grown.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=b>
+              b. were grown.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=c>
+              c. are grown.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=d>
+              d. grow.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">4.
+             My cousin _________ by everybody will travel to NY.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=a>
+              a. loved.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=b>
+              b. is love.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=c>
+              c. will be loved.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=d>
+              d. loves.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">5.
+            The files __________ last year must be ready for the trial.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=a>
+              a. classified.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=b>
+              b. were classified.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=c>
+              c. have classified.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=d>
+              d. are classified.</font></p>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">6.
+            Those pictures _________ a few minutes ago are impressive.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=a>
+              a. taken.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=b>
+              b. are taken.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=c>
+              c. took.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=d>
+              d. were taken.</font></p>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">7.
+            These books ___________ Emma Wilson arrived yesterday.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=a>
+              a. written by.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=b>
+              b. have being bye.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=c>
+              c. are written by.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=d>
+              d. were written by.</font></p>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">8.
+            The packages ___________ last weekend will get here tonight.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=a>
+              a. just mailed.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=b>
+              b. were mailed.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=c>
+              c. are mailed.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=d>
+              d. have been mailed.</font></p>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">9.
+             The pyramids ___________ in the past will be the new attraction.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=a>
+              a. forgotten.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=b>
+              b. were forgiven.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=c>
+              c. are forgotten.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=d>
+              d. are forgiving.</font></p>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">10.
+             The procedures ___________ the management could be a success.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=a>
+              a. certified by.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=b>
+              b. were certificated.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=c>
+              c. are certificating.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=d>
+              d. are certified by.</font></p>
+			  <p></p>
+            <p>
+              <input name=Resulta onClick=Nivel() type=button value=Resultados>
+             <!--<input type="button" name="repose" value="Respuestas Correctas">-->
+              <!--<input type="reset" value="Borrar resultados" name="reset">-->
+            </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">* Para
+              tomar nuevamente la autoevaluación presione el botón
+              'F5' </font></p>
+            </FORM>
+			</div>
+		</div>
+	</td>
+</tr>
+</table>
+			<section>
+				<div>
+					<a href="STRUCTURE18.html">NEXT</a>
+				</div>
+			</section>
+		<footer id="main-footer">
+				<div class="pie">
+					<div class="container">
+						&copy; 2020 - Todos los derechos reservados
+					</div>
+				</div>
+		</footer>
+		</body>
+</html>

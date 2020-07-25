@@ -1,0 +1,979 @@
+<!Doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>DIAGNOSTIC-MOCK</title>
+			<link rel="stylesheet" href="css/estilo.css">
+		<script language="JavaScript">
+<!--
+alert("Bienvenido a la Evaluación correspondiente al primer Ejercicio \n\nSeleccione las respuestas que crea correctas, teniendo en "+
+      "\ncuenta las siguientes consideraciones \n\n1. Los aciertos tienen el valor de un punto"+
+	  " \n\n2. Las respuestas no contestadas ni suman ni restan puntos.") 
+//-->
+ 
+var resp = new Array;
+var faite = new Array;
+var score = 0;
+ 
+resp[1] = "b";
+resp[2] = "d";
+resp[3] = "c";
+resp[4] = "b";
+resp[5] = "a";
+resp[6] = "b";
+resp[7] = "b";
+resp[8] = "a";
+resp[9] = "d";
+resp[10] = "b";
+resp[11] = "c";
+resp[12] = "d";
+resp[13] = "c";
+resp[14] = "a";
+resp[15] = "b";
+resp[16] = "c";
+resp[17] = "c";
+resp[18] = "b";
+resp[19] = "d";
+resp[20] = "b";
+resp[21] = "a";
+resp[22] = "b";
+resp[23] = "a";
+resp[24] = "b"; 
+resp[25] = "b";
+resp[26] = "a";
+resp[27] = "a";
+resp[28] = "d";
+resp[29] = "a";
+resp[30] = "a";
+resp[31] = "d";
+resp[32] = "a";
+resp[33] = "b";
+resp[34] = "a";
+resp[35] = "b";
+resp[36] = "a";
+resp[37] = "c";
+resp[38] = "c";
+resp[39] = "b";
+resp[40] = "a";
+resp[41] = "c";
+resp[42] = "d";
+resp[43] = "b";
+resp[44] = "b";
+resp[45] = "c";
+resp[46] = "c";
+resp[47] = "d";
+resp[48] = "b";
+resp[49] = "d";
+resp[50] = "b";
+
+
+function Engine(question, repose)
+{
+   if (repose != resp[question])
+	 {
+             if (!faite[question])
+			        {faite[question] = -1;}
+                }
+        else {
+ 
+                if (!faite[question]) {
+                        faite[question] = -1;
+                        score++;
+                        alert("¡Correcto! Tu puntuación es : " + score );
+                        }
+ 
+                }
+}
+ 
+function Nivel () {
+ 
+        if (score >= 50 && score < 50) {
+                alert(score + "/50 " + "!!!EXELENTE!!!");
+                }
+        if (score >= 26 && score < 50) {
+                alert(score + "/50 " + "Bien, pero puedes hacerlo mejor");
+                }
+      
+        if (score <= 25 && score < 50) {
+                alert(score + "/50 " + "REPITE LA PRUEBA");
+                }
+       
+}
+ 
+</script>
+		</head>
+		<div>
+			<header class="menu">
+			<img src="img/logo.jpg" width="150" alt="">
+				<nav>
+					<ul>
+					<style href="text/css">
+					img{
+						margin-top: 30px;
+						margin-left: 150px;
+					}
+					 li{
+						float: left;
+						list-style: none;
+						padding: 10px;
+					 }
+					 nav{
+						float: right;
+						margin-top: 20px;
+						margin-right: 150px;
+					 }
+					 a{
+						text-decoration: none;
+					 }
+					 
+					 section{
+						background-size: 900px;
+						
+					 }
+					 .1: hover{
+						height: 1350;
+						width: 820;
+					 }
+					</style>
+						<li><a href="index.html">MENU</a></li>
+						<li><a href="">C) EXERCISE</a></li>
+						<li><a href="">LISTENING</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<body>
+ 
+
+    <font face="Verdana, Arial, Helvetica, sans-serif" color="#336699"><b>
+	<p></p>
+
+	<p>MOCK TEST - LISTENING</p>
+	
+	<p>Now we will begin part A with the first conversation:</p> <br>
+
+	<audio src="MOCK-TEST/DIAGNOSTIC-01/01 Pista 1.mp3" preload="none" controls>
+	</audio> <audio src="audio.ogg" autoplay loop></audio>
+	<p>PART A)</p> </b></font>
+  
+  
+  
+  
+      <div align="center">
+<div align="left">
+<FORM NAME="formulario" ACTION="">
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">1.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=a>
+            He is not worried about his scheduled class work.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=b>
+            He will help the woman catch up with the class.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=1 onClick="Engine(1, this.value)" type=radio value=c>
+            The woman did not miss any of the homework.</font></p>
+			   <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+             <input name=1 onClick="Engine(1, this.value)" type=radio value=d>
+            The woman will have a problem making up the work by the due date.</font></p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+    
+              2.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=a>
+              She does not know many artist.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=b>
+              She does not know much about art.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=c>
+            She admires the man’s art.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=2 onClick="Engine(2, this.value)" type=radio value=d>
+            She likes many artists.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">3.
+             </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=a>
+             He expects to sell all of the calculators soon.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=b>
+             The woman should look in a different section of the store.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=c>
+             The store does not have any calculators to sell now.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=3 onClick="Engine(3, this.value)" type=radio value=d>
+             Calculators are on sale this week.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">4.
+             </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=a>
+             She cannot work on Fridays.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=b>
+            She is not available to work before six thirty on Fridays.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=c>
+            She needs to leave work early on Fridays.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=4 onClick="Engine(4, this.value)" type=radio value=d>
+             Her class on Fridays has been canceled.</font></p>
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">5.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=a>
+             He will be studying tomorrow.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=b>
+            He will see the game at night.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=c>
+            He does not like baseball.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=d>
+             He has a ticket for the game.</font></p>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">6.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=a>
+             His flight took three hours.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=b>
+             His flight arrived late.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=c>
+            Emma had a long drive to the airport.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=6 onClick="Engine(6, this.value)" type=radio value=d>
+             Emma had trouble finding the airport.</font></p>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">7.
+             </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=a>
+            They should wait for him</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=b>
+            They should go without him</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=c>
+             He will try to join them later</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=7 onClick="Engine(7, this.value)" type=radio value=d>
+             They should bring him some pizza.</font></p>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">8.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=a>
+            She will request more time to finish the project.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=b>
+             She will help the man to finish his project.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=c>
+             She finished her project in two weeks.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=8 onClick="Engine(8, this.value)" type=radio value=d>
+             She is almost finished working on her project.</font></p>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">9.
+             </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=a>
+             He cannot go to the art exhibit.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=b>
+            He will introduce the woman to the people in his class..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=c>
+             He plans to take the same painting class as the woman..</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=9 onClick="Engine(9, this.value)" type=radio value=d>
+              He needs directions to the art exhibit.</font></p>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">10.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=a>
+             She skipped some of the instructions in the recipe..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=b>
+             She bought the pie.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=c>
+             She will give the recipe to the man later.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=10 onClick="Engine(10, this.value)" type=radio value=d>
+             She does not think the pie tastes good.</font></p>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">11.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=11 onClick="Engine(11, this.value)" type=radio value=a>
+             He has to meet with his professor soon.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=11 onClick="Engine(11, this.value)" type=radio value=b>
+             He enjoyed the photography club meeting.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=11 onClick="Engine(11, this.value)" type=radio value=c>
+              He was with his professor during the club meeting.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=11 onClick="Engine(11, this.value)" type=radio value=d>
+             He was looking for the meeting place.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">12.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=12 onClick="Engine(12, this.value)" type=radio value=a>
+             He plans to visit more national parks.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=12 onClick="Engine(12, this.value)" type=radio value=b>
+             He wanted to go but could not.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=12 onClick="Engine(12, this.value)" type=radio value=c>
+             The park was very crowded.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=12 onClick="Engine(12, this.value)" type=radio value=d>
+             The park was better than he expected.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">13.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=13 onClick="Engine(13, this.value)" type=radio value=a>
+            Leave work earlier.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=13 onClick="Engine(13, this.value)" type=radio value=b>
+             Join a different fitness center.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=13 onClick="Engine(13, this.value)" type=radio value=c>
+             Go to the fitness center in the morning.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=13 onClick="Engine(13, this.value)" type=radio value=d>
+             Use a different parking lot</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">14.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=14 onClick="Engine(14, this.value)" type=radio value=a>
+            She is also sad that the professor is retiring. </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=14 onClick="Engine(14, this.value)" type=radio value=b>
+             She has taken many of the professor’s classes..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=14 onClick="Engine(14, this.value)" type=radio value=c>
+             She knows why the professor is retiring.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=14 onClick="Engine(14, this.value)" type=radio value=d>
+             She doubts that the professor is planning to retire..</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">15.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=15 onClick="Engine(15, this.value)" type=radio value=a>
+            He needs the woman’s help.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=15 onClick="Engine(15, this.value)" type=radio value=b>
+             He will complete the report when the computer is fixed.. </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=15 onClick="Engine(15, this.value)" type=radio value=c>
+              The report was much longer that he thought it would be.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=15 onClick="Engine(15, this.value)" type=radio value=d>
+             The report was finished a couple of days ago.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">16.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=16 onClick="Engine(16, this.value)" type=radio value=a>
+            He was not sick.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=16 onClick="Engine(16, this.value)" type=radio value=b>
+             He refuses to take medicine.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=16 onClick="Engine(16, this.value)" type=radio value=c>
+             He is feeling much better.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=16 onClick="Engine(16, this.value)" type=radio value=d>
+            He is at the health center now.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">17.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=17 onClick="Engine(17, this.value)" type=radio value=a>
+             She will help the man find his library card.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=17 onClick="Engine(17, this.value)" type=radio value=b>
+              She does not have a library card.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=17 onClick="Engine(17, this.value)" type=radio value=c>
+              She is not sure if she can borrow materials for the man.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=17 onClick="Engine(17, this.value)" type=radio value=d>
+             She has the journals the man needs at her home.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">18.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=18 onClick="Engine(18, this.value)" type=radio value=a>
+             It is not her favorite shirt.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=18 onClick="Engine(18, this.value)" type=radio value=b>
+             The shirt was a gift.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=18 onClick="Engine(18, this.value)" type=radio value=c>
+            She went on vacation with her sister.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=18 onClick="Engine(18, this.value)" type=radio value=d>
+            The shirt belongs to her sister. </font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">19.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=19 onClick="Engine(19, this.value)" type=radio value=a>
+            Ed is happy with his job.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=19 onClick="Engine(19, this.value)" type=radio value=b>
+            Ed is not as good a worker as the boss thinks.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=19 onClick="Engine(19, this.value)" type=radio value=c>
+              The boss plans to give Ed a raise in salary.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=19 onClick="Engine(19, this.value)" type=radio value=d>
+            The boss has not treated Ed well. </font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">20.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=20 onClick="Engine(20, this.value)" type=radio value=a>
+             Change the time on his watch.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=20 onClick="Engine(20, this.value)" type=radio value=b>
+             Tell the woman what time it is. </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=20 onClick="Engine(20, this.value)" type=radio value=c>
+              Take the woman’s watch to a repair shop.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=20 onClick="Engine(20, this.value)" type=radio value=d>
+             Help the woman buy a watch.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">21.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=21 onClick="Engine(21, this.value)" type=radio value=a>
+             She disagrees with the man’s opinion.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=21 onClick="Engine(21, this.value)" type=radio value=b>
+            She listens to the show’s music regularly.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=21 onClick="Engine(21, this.value)" type=radio value=c>
+             She did not attend the performance.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=21 onClick="Engine(21, this.value)" type=radio value=d>
+            She preferred the slow songs.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">22.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=22 onClick="Engine(22, this.value)" type=radio value=a>
+            He paid a higher fee that the woman did..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=22 onClick="Engine(22, this.value)" type=radio value=b>
+            He understands why his phone bill increased.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=22 onClick="Engine(22, this.value)" type=radio value=c>
+            He did not receive his phone bill this month. </font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=22 onClick="Engine(22, this.value)" type=radio value=d>
+            He paid the same amount as he did the previous month.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">23.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=23 onClick="Engine(23, this.value)" type=radio value=a>
+             She is neater that the woman’s precious roommate.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=23 onClick="Engine(23, this.value)" type=radio value=b>
+             She does not like the woman’s last roommate.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=23 onClick="Engine(23, this.value)" type=radio value=c>
+            She does not like to clean.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=23 onClick="Engine(23, this.value)" type=radio value=d>
+             She will probably move soon.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">24.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=24 onClick="Engine(24, this.value)" type=radio value=a>
+            He does not know much about lab reports.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=24 onClick="Engine(24, this.value)" type=radio value=b>
+            He can meet with the woman later.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=24 onClick="Engine(24, this.value)" type=radio value=c>
+            He thinks the lab report needs work. </font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=24 onClick="Engine(24, this.value)" type=radio value=d>
+            He cannot help the woman.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">25.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=25 onClick="Engine(25, this.value)" type=radio value=a>
+            Listen to a weather report. </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=25 onClick="Engine(25, this.value)" type=radio value=b>
+             Decide whether to cancel the trip.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=25 onClick="Engine(25, this.value)" type=radio value=c>
+             Schedule the trip for a later date.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=25 onClick="Engine(25, this.value)" type=radio value=d>
+             Ask other students for their opinion about the trip.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">26.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=26 onClick="Engine(26, this.value)" type=radio value=a>
+             He many apply for a job at the bookstore.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=26 onClick="Engine(26, this.value)" type=radio value=b>
+             His friends need to buy something at the bookstore.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=26 onClick="Engine(26, this.value)" type=radio value=c>
+            He will give the woman a ride to the bookstore.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=26 onClick="Engine(26, this.value)" type=radio value=d>
+             He will be too busy to work at the bookstore.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">27.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=27 onClick="Engine(27, this.value)" type=radio value=a>
+            She will not be a candidate in the election.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=27 onClick="Engine(27, this.value)" type=radio value=b>
+            She has to quit her job..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=27 onClick="Engine(27, this.value)" type=radio value=c>
+             She should not attend the student council meeting.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=27 onClick="Engine(27, this.value)" type=radio value=d>
+             She plans to take fewer classes.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">28.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=28 onClick="Engine(28, this.value)" type=radio value=a>
+            He has to go the eye doctor.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=28 onClick="Engine(28, this.value)" type=radio value=b>
+             He has a new style of glasses.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=28 onClick="Engine(28, this.value)" type=radio value=c>
+             He lost one of his contact lenses.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=28 onClick="Engine(28, this.value)" type=radio value=d>
+             He rarely wears his glasses.</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">29.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=29 onClick="Engine(29, this.value)" type=radio value=a>
+            Watch the news on TV.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=29 onClick="Engine(29, this.value)" type=radio value=b>
+             Turn the TV on at six o’clock.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=29 onClick="Engine(29, this.value)" type=radio value=c>
+             Turn the TV off in a few minutes.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=29 onClick="Engine(29, this.value)" type=radio value=d>
+            Watch another comedy show .</font></p>
+			 <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">30.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=30 onClick="Engine(30, this.value)" type=radio value=a>
+            Tell her which evening the professor will come.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=30 onClick="Engine(30, this.value)" type=radio value=b>
+            Pay for the professor’s meal ahead of time.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=30 onClick="Engine(30, this.value)" type=radio value=c>
+             Find out the evening schedule of the dining hall.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=30 onClick="Engine(30, this.value)" type=radio value=d>
+             Find out which students will attend.</font></p>
+			 <p></p>
+			 <p><b><h3>This is the end of PART A.</h3></b></p>
+			 <hr>
+			 <p><b></b></p>
+	<p><b><img id="1" src="MOCK-TEST/DIAGNOSTIC-01/PART-B.jpeg"></b></p>
+	
+	
+	<audio src="KEY ANSWER AND 50 LISTENING EXERCISES/toefl_listening_exercise_part_b.mp3" preload="none" controls></audio> <audio src="audio.ogg" autoplay loop></audio>
+ 
+	<p>QUESTIONS 31 - 39</p>
+			 <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">31.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=31 onClick="Engine(31, this.value)" type=radio value=a>
+            A famous poet.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=31 onClick="Engine(31, this.value)" type=radio value=b>
+            Research the man is doing for a paper..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=31 onClick="Engine(31, this.value)" type=radio value=c>
+            How to get help at the library.</font></p>
+			   <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+             <input name=31 onClick="Engine(31, this.value)" type=radio value=d>
+            The man’s new job .</font></p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+            <p> </p>
+			
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">32.
+             </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=32 onClick="Engine(32, this.value)" type=radio value=a>
+            He puts them back on the shelves.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=32 onClick="Engine(32, this.value)" type=radio value=b>
+			He repairs damage to their pages and covers.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=32 onClick="Engine(32, this.value)" type=radio value=c>
+			He enters information about them in the computer.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=32 onClick="Engine(32, this.value)" type=radio value=d>
+            He brings them to the front desk.</font></p><br>
+            <p> </p>
+			
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">33.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=33 onClick="Engine(33, this.value)" type=radio value=a>
+             He talks to his friends.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=33 onClick="Engine(33, this.value)" type=radio value=b>
+            He does his homework.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=33 onClick="Engine(33, this.value)" type=radio value=c>
+            He plays computer games..</font></p>
+			   <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+             <input name=33 onClick="Engine(33, this.value)" type=radio value=d>
+            He meets a lot of new people.</font></p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+			  
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">34.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=34 onClick="Engine(34, this.value)" type=radio value=a>
+            His boss can talk with her about a job.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=34 onClick="Engine(34, this.value)" type=radio value=b>
+             His boss can help her find.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=34 onClick="Engine(34, this.value)" type=radio value=c>
+            His boss knows a lot about Emily Dickinson.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=5 onClick="Engine(5, this.value)" type=radio value=d>
+             His boss wants to hear students’ comments about the library’s services..</font></p><br>
+			  <p></p>
+			  
+
+			  <br>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">35.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=35 onClick="Engine(35, this.value)" type=radio value=a>
+             Reasons that theater attendance has recently increased.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=35 onClick="Engine(35, this.value)" type=radio value=b>
+            Techniques used to generate public interest in a production.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=35 onClick="Engine(35, this.value)" type=radio value=c>
+              Why Shakespeare’s plays attract a large audience.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=35 onClick="Engine(35, this.value)" type=radio value=d>
+            Modern productions of plays written long ago..</font></p><br>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">36.
+             </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=36 onClick="Engine(36, this.value)" type=radio value=a>
+             Playwrights and actors spoke about their plays.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=36 onClick="Engine(36, this.value)" type=radio value=b>
+             Pictorial advertisements were posted throughout the city.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=36 onClick="Engine(36, this.value)" type=radio value=c>
+            Audience members gathered to eat.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=36 onClick="Engine(36, this.value)" type=radio value=d>
+            Musical performances were held.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">37.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=37 onClick="Engine(37, this.value)" type=radio value=a>
+            Actor performed short scenes downtown for free.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=37 onClick="Engine(37, this.value)" type=radio value=b>
+             Announcements were made in public squares.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=37 onClick="Engine(37, this.value)" type=radio value=c>
+            Flags were raised to attract attention.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=37 onClick="Engine(37, this.value)" type=radio value=d>
+            Advertisements were printed in newspapers.</font></p><br>
+			  <p></p>
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">38.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=38 onClick="Engine(38, this.value)" type=radio value=a>
+            It has decreased due to improvements in technology.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=38 onClick="Engine(38, this.value)" type=radio value=b>
+            It may force some theaters to close down.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=38 onClick="Engine(38, this.value)" type=radio value=c>
+            It has become an important part of running a successful theater.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=38 onClick="Engine(38, this.value)" type=radio value=d>
+            It will probably not increase much in the near future.</font></p><br>
+			  <p></p>
+			
+			<p><b><h3>This is the end of PART B.</h3></b></p>
+			<hr>
+			<p><b></b></p>
+	<p><b><h3>Now we will begin with PART C with the first talk.</h3></b></p>
+	<b><img id="1" src="MOCK-TEST/DIAGNOSTIC-01/PART-C.jpeg"></b>
+	<audio src="KEY ANSWER AND 50 LISTENING EXERCISES/toefl_listening_exercise_part_b.mp3" preload="none" controls></audio> <audio src="audio.ogg" autoplay loop></audio>
+	 
+	<p>QUESTIONS 39-50</p>
+			 <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">39.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=39 onClick="Engine(39, this.value)" type=radio value=a>
+            The information of asteroids and meteorites in space.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=39 onClick="Engine(39, this.value)" type=radio value=b>
+            The discovery and origin of space diamonds.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=39 onClick="Engine(39, this.value)" type=radio value=c>
+            The process by which diamonds form on Earth .</font></p>
+			   <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+             <input name=39 onClick="Engine(39, this.value)" type=radio value=d>
+             Various potential uses for space diamonds.</font></p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+            <p> </p>
+			
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">40.
+             </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=40 onClick="Engine(40, this.value)" type=radio value=a>
+            They could not cut through it.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=40 onClick="Engine(40, this.value)" type=radio value=b>
+            They could not x-ray it.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=40 onClick="Engine(40, this.value)" type=radio value=c>
+            They could not determine its composition.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=40 onClick="Engine(40, this.value)" type=radio value=d>
+            They could not move it.</font></p><br>
+            <p> </p>
+			
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">41.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=41 onClick="Engine(41, this.value)" type=radio value=a>
+             Space diamonds are very expensive.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=41 onClick="Engine(41, this.value)" type=radio value=b>
+            Space diamonds are very beautiful.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=41 onClick="Engine(41, this.value)" type=radio value=c>
+            Space diamonds are smaller than regular diamonds.</font></p>
+			   <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+             <input name=41 onClick="Engine(41, this.value)" type=radio value=d>
+            Space diamonds are commonly found on Earth.</font></p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+			  
+            <p> </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">42.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=42 onClick="Engine(42, this.value)" type=radio value=a>
+            Deep in Earth’s crust.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=42 onClick="Engine(42, this.value)" type=radio value=b>
+            On the ocean floor.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=42 onClick="Engine(42, this.value)" type=radio value=c>
+            In volcanic craters.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=42 onClick="Engine(42, this.value)" type=radio value=d>
+            In meteor craters.</font></p><br>
+			  <p></p>
+			  
+			  <br>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">43.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=43 onClick="Engine(43, this.value)" type=radio value=a>
+            The cost of analyzing product designs.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=43 onClick="Engine(43, this.value)" type=radio value=b>
+            Designing products so they are easy to use.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=43 onClick="Engine(43, this.value)" type=radio value=c>
+            Redesigning old products for new uses.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=43 onClick="Engine(43, this.value)" type=radio value=d>
+            Psychological aspects of consume spending .</font></p><br>
+			  <p></p>
+			  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">44.
+             </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=44 onClick="Engine(44, this.value)" type=radio value=a>
+            The accuracy of some of their instruments.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=44 onClick="Engine(44, this.value)" type=radio value=b>
+            The layout of their instruments.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=44 onClick="Engine(44, this.value)" type=radio value=c>
+            The type if training they received.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=44 onClick="Engine(44, this.value)" type=radio value=d>
+            The complexity of their flight routes.</font></p><br>
+			  <p></p>
+			   <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">45.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=45 onClick="Engine(45, this.value)" type=radio value=a>
+            Increased employee loyalty..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=45 onClick="Engine(45, this.value)" type=radio value=b>
+            Reduce marketing costs.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=45 onClick="Engine(45, this.value)" type=radio value=c>
+            Increased product sales.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=45 onClick="Engine(45, this.value)" type=radio value=d>
+             Improved efficiency in factories.</font></p><br>
+			  <p></p>
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">46.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=46 onClick="Engine(46, this.value)" type=radio value=a>
+            It was too small for most cups.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=46 onClick="Engine(46, this.value)" type=radio value=b>
+            It did not hold cups securely.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=46 onClick="Engine(46, this.value)" type=radio value=c>
+            It interfered with access to the radio..</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=46 onClick="Engine(46, this.value)" type=radio value=d>
+             It was too far from the driver.</font></p><br>
+			 <p></p>
+				
+				<br>
+			 <p></p>
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">47.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=47 onClick="Engine(47, this.value)" type=radio value=a>
+           They were very expensive .</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=47 onClick="Engine(47, this.value)" type=radio value=b>
+            They were unattractive.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=47 onClick="Engine(47, this.value)" type=radio value=c>
+            They were designed by a psychologist.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=47 onClick="Engine(47, this.value)" type=radio value=d>
+            They were often difficult to use.</font></p><br>
+			 <p></p>
+			 <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">48.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=48 onClick="Engine(48, this.value)" type=radio value=a>
+            Why early societies needed to measure time.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=48 onClick="Engine(48, this.value)" type=radio value=b>
+            Similarities between obelisks and sundials.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=48 onClick="Engine(48, this.value)" type=radio value=c>
+            The evolution of early timekeeping deceives.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=48 onClick="Engine(48, this.value)" type=radio value=d>
+            A new theory about early timekeeping deceives.</font></p><br>
+			 <p></p>
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">49.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=49 onClick="Engine(49, this.value)" type=radio value=a>
+			They were used to predict the sun’s path across the sky..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=49 onClick="Engine(49, this.value)" type=radio value=b>
+            They were more accurate in morning than in afternoon.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=49 onClick="Engine(49, this.value)" type=radio value=c>
+			They were invented around the same time.</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=49 onClick="Engine(49, this.value)" type=radio value=d>
+            They only worked on sunny days.</font></p><br>
+			 <p></p>
+			 <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">50.
+              </font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=50 onClick="Engine(50, this.value)" type=radio value=a>
+            It design changed around 1500 B.C.E.</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=50 onClick="Engine(50, this.value)" type=radio value=b>
+            Its usefulness was limited..</font></p>
+            <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=50 onClick="Engine(50, this.value)" type=radio value=c>
+            It was very precise when used along with a water .</font></p>
+			  <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+              <input name=50 onClick="Engine(50, this.value)" type=radio value=d>
+            It was less accurate than the water clock.</font></p><br>
+			 <p></p>
+			<p><b><h3>This is the end of PART C.<h3></b></p>
+            <p>
+              <input name=Resulta onClick=Nivel() type=button value=Resultados>
+             <!--<input type="button" name="repose" value="Respuestas Correctas">-->
+              <!--<input type="reset" value="Borrar resultados" name="reset">-->
+            </p>
+            <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">* Para
+              tomar nuevamente la autoevaluación presione el botón
+              'F5' </font></p>
+            </FORM>
+  </div>
+      </div>
+    
+  
+
+		<section>
+				<div>
+					<a href="STRUCTURE-MOCK.html">NEXT</a>
+				</div>
+		</section>
+		<footer id="main-footer">
+				<div class="pie">
+					<div class="container">
+						&copy; 2020 - Todos los derechos reservados
+					</div>
+				</div>
+		</footer>
+		</body>
+</html>
